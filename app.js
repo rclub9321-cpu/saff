@@ -24,7 +24,7 @@ const productsData = [
     desc: 'Avtomatik Blue kağız dəsmal dispenseri + 2 ədəd kağız dəsmal rulosu. Ofis, restoran, ictimai binalar üçün ideal.',
     category: 'salfetka',
     categoryLabel: 'Salfetka',
-    img: 'https://www.genspark.ai/api/files/s/qWLrdvym',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-paper-towel-dispenser.jpg',
     badge: 'Dəst',
     price: null
   },
@@ -34,131 +34,151 @@ const productsData = [
     desc: 'Yüksək keyfiyyətli kağız dəsmal rulosu. Xüsusi toxuma, yumşaq, davamlı material. Çoxlu rulo seçimi.',
     category: 'salfetka',
     categoryLabel: 'Salfetka',
-    img: 'https://www.genspark.ai/api/files/s/qWLrdvym',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-paper-towel-dispenser.jpg',
     badge: null,
+    price: null
+  },
+  {
+    id: 'p3',
+    name: 'Sarı Nonwoven Rulosu',
+    desc: 'Sarı rəngli nonwoven (qeyri-toxunma) rulosu. Tullantı kisəsi, müvəqqəti örtük kimi istifadə olunur. Yüngül, davamlı material.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-nonwoven-roll.jpg',
+    badge: 'Sarı',
     price: null
   },
   // KİMYƏVİ MƏHSULLAR
   {
-    id: 'p3',
+    id: 'p4',
     name: 'Professional Cleaner',
     desc: 'Peşəkar universal təmizlik vasitəsi. Sürətli və effektiv təmizlik. Müxtəlif səthlər üçün uyğundur.',
     category: 'kimyevi',
     categoryLabel: 'Kimyəvi Məhsullar',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: 'Professional',
     price: null
   },
   {
-    id: 'p4',
+    id: 'p5',
     name: 'Universal Təmizlik Vasitəsi',
     desc: 'Universal çox məqsədli təmizlik məhsulu. Ev, ofis, sənaye sahələri üçün münasibdir.',
     category: 'kimyevi',
     categoryLabel: 'Kimyəvi Məhsullar',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: 'Universal',
     price: null
   },
   {
-    id: 'p5',
+    id: 'p6',
     name: 'Xlor Məhlulu',
     desc: 'Güclü dezinfeksiya və ağardıcı məhsul. Səthi dezinfeksiya etmək üçün ideal.',
     category: 'kimyevi',
     categoryLabel: 'Kimyəvi Məhsullar',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: null,
     price: null
   },
   {
-    id: 'p6',
+    id: 'p7',
     name: 'Banyə Təmizlik Sprey',
     desc: 'Vanna otağı üçün xüsusi spray. Daş kirəc, pas izlərini effektiv şəkildə aradan qaldırır.',
     category: 'kimyevi',
     categoryLabel: 'Kimyəvi Məhsullar',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: null,
     price: null
   },
   // TƏMİZLİK LƏVAZİMATLARI
   {
-    id: 'p7',
+    id: 'p8',
     name: 'Mikrofibra Parça Dəsti',
     desc: '4 rəngli mikrofibra parça dəsti (yaşıl, sarı, qırmızı, göy). Yüksək emilim, uzun ömürlü, maşında yuyula bilər.',
     category: 'levazimati',
     categoryLabel: 'Təmizlik Ləvazimatları',
-    img: 'https://www.genspark.ai/api/files/s/W9v5Gr1k',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-microfiber-cloth.jpg',
     badge: '4 Rəng',
     price: null
   },
   {
-    id: 'p8',
+    id: 'p9',
     name: 'Flat Mop Başlığı',
     desc: 'Düz mop başlığı. Döşəmə yuma üçün ağ-qırmızı dönən mop başlığı. Bütün döşəmə növləri üçün uyğun.',
     category: 'levazimati',
     categoryLabel: 'Təmizlik Ləvazimatları',
-    img: 'https://www.genspark.ai/api/files/s/LEGr2DwY',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-flat-mop.jpg',
     badge: 'Professional',
     price: null
   },
   {
-    id: 'p9',
+    id: 'p10',
     name: 'Chenille Mop Başlığı',
     desc: 'Rəngli chenille mop başlıqları (mavi, çəhrayı, yaşıl, narıncı). Geniş sahəli, yüksək effektiv.',
     category: 'levazimati',
     categoryLabel: 'Təmizlik Ləvazimatları',
-    img: 'https://www.genspark.ai/api/files/s/j7ISbtYe',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-chenille-mop.jpg',
     badge: 'Rəngli',
     price: null
   },
   {
-    id: 'p10',
-    name: 'Sərfəli Film (Stretch Film)',
-    desc: 'Qablaşdırma üçün şəffaf stretch film rulosu. Möhkəm, uzanan, qoruyucu film.',
+    id: 'p11',
+    name: 'Stretch Film (Şəffaf)',
+    desc: 'Qablaşdırma üçün şəffaf stretch film rulosu. Möhkəm, uzanan, qoruyucu film. Sənaye və ev istifadəsi üçün.',
     category: 'levazimati',
     categoryLabel: 'Təmizlik Ləvazimatları',
-    img: 'https://www.genspark.ai/api/files/s/vU6XDrzT',
-    badge: null,
-    price: null
-  },
-  // DEZİNFEKSİYA
-  {
-    id: 'p11',
-    name: 'Antiseptik Məhlul',
-    desc: 'Əl və səthlər üçün güclü antiseptik dezinfeksiya məhlulu. 70% spirt əsaslı, sürətli effekt.',
-    category: 'dezinfeksiya',
-    categoryLabel: 'Dezinfeksiya',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
-    badge: 'Antiseptik',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-stretch-film.jpg',
+    badge: 'Şəffaf',
     price: null
   },
   {
     id: 'p12',
+    name: 'Süpürgə + Rezin Qaşov Dəsti',
+    desc: 'Qırmızı saplı süpürgə və rezin qaşov dəsti. Döşəmə süpürmə və su çəkmə üçün ideal. Davamlı, keyfiyyətli material.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-broom-scraper.jpg',
+    badge: 'Dəst',
+    price: null
+  },
+  // DEZİNFEKSİYA
+  {
+    id: 'p13',
+    name: 'Antiseptik Məhlul',
+    desc: 'Əl və səthlər üçün güclü antiseptik dezinfeksiya məhlulu. 70% spirt əsaslı, sürətli effekt.',
+    category: 'dezinfeksiya',
+    categoryLabel: 'Dezinfeksiya',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
+    badge: 'Antiseptik',
+    price: null
+  },
+  {
+    id: 'p14',
     name: 'Dezinfeksiya Sprey',
     desc: 'Səthlər üçün dezinfeksiya spreyi. Bakteriya, virus və göbələklərə qarşı effektiv. Əlverişli sprey qabı.',
     category: 'dezinfeksiya',
     categoryLabel: 'Dezinfeksiya',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: null,
     price: null
   },
   // ƏL GİGİYENASI
   {
-    id: 'p13',
+    id: 'p15',
     name: 'Nitrile Əlcəklər (Qara)',
     desc: 'Professional qara nitrile əlcəklər. Kimyəvi maddələrə davamlı, nazik, rahat geyim. 100 ədədlik qutu.',
     category: 'gigiyena',
     categoryLabel: 'Əl Gigiyenası',
-    img: 'https://www.genspark.ai/api/files/s/iSiMaF8a',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: '100 əd.',
     price: null
   },
   {
-    id: 'p14',
+    id: 'p16',
     name: 'Dispenser Sabun',
     desc: 'Əl yuma üçün dispenser sabunu. Yumşaq formula, nəmləndirici, parfümlü. Böyük həcm.',
     category: 'gigiyena',
     categoryLabel: 'Əl Gigiyenası',
-    img: 'https://www.genspark.ai/api/files/s/KMWWqHB2',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/logo.png',
     badge: null,
     price: null
   }
