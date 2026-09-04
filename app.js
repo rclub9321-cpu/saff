@@ -285,6 +285,20 @@ function filterProducts(filter) {
     tab.classList.toggle('active', tab.dataset.filter === filter);
   });
 
+  // Aktiv tab-ı görünən sahəyə scroll et
+  const activeTab = document.querySelector('.filter-tab.active');
+  if (activeTab) {
+    const filtersContainer = document.getElementById('productFilters');
+    if (filtersContainer) {
+      const containerLeft = filtersContainer.scrollLeft;
+      const containerWidth = filtersContainer.offsetWidth;
+      const tabLeft = activeTab.offsetLeft;
+      const tabWidth = activeTab.offsetWidth;
+      const targetScroll = tabLeft - (containerWidth / 2) + (tabWidth / 2);
+      filtersContainer.scrollTo({ left: targetScroll, behavior: 'smooth' });
+    }
+  }
+
   renderProducts();
 }
 
