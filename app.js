@@ -233,6 +233,130 @@ const productsData = [
     badge: '60L',
     price: null
   },
+  // TƏMİZLİK LƏVAZİMATLARI — YENİ MƏHSULLAR (şəkilli)
+  {
+    id: 'p26',
+    name: 'Mətbəx Süngəri — 10 ədəd',
+    desc: 'Saff Təharət Mətbəx Süngəri 10 ədədlik paket. Güclü təmizlik, davamlı material, rahat istifadə. Rəngli süngərlər — yaşıl, sarı, qırmızı, göy. Qab-qacaq yuma üçün ideal.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-metbex-sungeri.jpg',
+    badge: '10 əd.',
+    price: null
+  },
+  {
+    id: 'p27',
+    name: 'Paslanmayan Polad Süngər — 3 ədəd',
+    desc: 'Saff Təharət Paslanmayan Polad Süngər 3 ədəd. Güclü təmizlik, davamlı material, hər növ səthi üçün uyğun. Tava, qazanlar üçün ideal. Paslanmaz polad tel.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-polad-sunger.jpg',
+    badge: '3 əd.',
+    price: null
+  },
+  {
+    id: 'p28',
+    name: 'Kağız Stəkan — 50 ədəd',
+    desc: 'Saff Təharət Kağız Stəkan 50 ədəd. Keyfiyyətli material, qida üçün təhlükəsiz, rahat istifadə, təbiətə dost. Restoran, ofis, tədbirlər üçün ideal.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-kagiz-stekan.jpg',
+    badge: '50 əd.',
+    price: null
+  },
+  {
+    id: 'p29',
+    name: 'Birdəfəlik Qab-Qacaq Dəsti — 50 ədəd',
+    desc: 'Saff Təharət Birdəfəlik Qab-Qacaq Dəsti 50 ədəd. Bıçaq, çəngəl, qaşıq daxil. Təmiz və gigiyenik, keyfiyyətli material, hər məkanda rahat istifadə.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-birdeferlik-qab-qacaq.jpg',
+    badge: '50 əd.',
+    price: null
+  },
+  {
+    id: 'p30',
+    name: 'Birdəfəlik Qab (Lоток) — 50 ədəd',
+    desc: 'Saff Təharət Birdəfəlik Plastik Qab (loток) 50 ədəd. Keyfiyyətli material, qida üçün təhlükəsiz, rahat istifadə. Çatdırılma, hazır yemək üçün ideal.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-birdeferlik-qab.jpg',
+    badge: '50 əd.',
+    price: null
+  },
+  {
+    id: 'p31',
+    name: 'Spin Mop Dəsti (Fırlanan Mop)',
+    desc: 'Saff Təharət Spin Mop Dəsti — fırlanan mop və vedrə. Effektiv təmizlik, davamlı material, rahat istifadə. Mikrofiber mop başlığı. Bütün döşəmə növləri üçün uyğun.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-spin-mop.jpg',
+    badge: 'Dəst',
+    price: null
+  },
+  // KİMYƏVİ MƏHSULLAR — YENİ ŞƏKİLLİ MƏHSULLAR
+  {
+    id: 'p32',
+    name: 'Cit Tozu — Limon (Ovalama Tozu)',
+    desc: 'Saff Təharət Cit Tozu limon ətirli. Güclü təmizlik, təbii təravət, hər səthi üçün. Vanna, mətbəx, tualet üçün ideal. Limon ekstraktlı formula.',
+    category: 'kimyevi',
+    categoryLabel: 'Kimyəvi Məhsullar',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-cit-tozu.jpg',
+    badge: 'Limon',
+    price: null
+  },
+  {
+    id: 'p33',
+    name: 'Tuz Ruhu — Tualet Təmizləyici',
+    desc: 'Saff Təharət Tuz Ruhu güclü tualet təmizləyici. Güclü təmizlik, kireç və pasa qarşı, mikrobları məhv edir, dərin təsir. Kireç, pas və ləkələrə qarşı effektiv.',
+    category: 'kimyevi',
+    categoryLabel: 'Kimyəvi Məhsullar',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-tuz-ruhu.jpg',
+    badge: 'Güclü',
+    price: null
+  },
+  // ƏL GİGİYENASI — YENİ ŞƏKİLLİ MƏHSULLAR
+  {
+    id: 'p34',
+    name: 'İş Əlcəyi (Narıncı, Lateks Örtüklü)',
+    desc: 'Saff Təharət İş Əlcəyi — narıncı rəng, lateks örtüklü. Keyfiyyətli material, rahat istifadə, güclü qorunma. Tikinti, bağçılıq, ağır iş üçün ideal.',
+    category: 'gigiyena',
+    categoryLabel: 'Əl Gigiyenası',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-is-elcekler.jpg',
+    badge: 'İş',
+    price: null
+  },
+  {
+    id: 'p35',
+    name: 'Lateks Əlcək (Qırmızı, Uzun)',
+    desc: 'Saff Təharət Lateks Əlcək qırmızı, uzun biləkli. Güclü təmizlik, davamlı material, rahat istifadə, hər növ səthi üçün. Ev, mətbəx, həyətyani işlər üçün.',
+    category: 'gigiyena',
+    categoryLabel: 'Əl Gigiyenası',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-lateks-elcek.jpg',
+    badge: 'Uzun',
+    price: null
+  },
+  {
+    id: 'p36',
+    name: 'Pambıq Qulaq Çöpü — 200 ədəd',
+    desc: 'Saff Təharət Gigiyenik Qulaq Çöpü 200 ədəd. Təbii pambıq, dəri üçün təhlükəsiz, yumşaq və rahat. Boks qabında. Uşaqlar və böyüklər üçün uyğun.',
+    category: 'gigiyena',
+    categoryLabel: 'Əl Gigiyenası',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-qulaq-copu.jpg',
+    badge: '200 əd.',
+    price: null
+  },
+  // SALFETKA — YENİ ŞƏKİLLİ MƏHSUL
+  {
+    id: 'p37',
+    name: 'Tualet Kağızı — 10 Rulon',
+    desc: 'Saff Təharət Tualet Kağızı 10 rulon paket. Yüksək keyfiyyət, yumşaq, davamlı. Həm ev, həm ofis, həm ictimai istifadə üçün. Sərfəli paket.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-tualet-kagizi-10-rulon.jpg',
+    badge: '10 rulon',
+    price: null
+  },
   // DEZİNFEKSİYA
   {
     id: 'p13',
