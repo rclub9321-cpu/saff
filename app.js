@@ -140,6 +140,99 @@ const productsData = [
     badge: 'Dəst',
     price: null
   },
+  // SALFETKA — YENİ MƏHSULLAR
+  {
+    id: 'p17',
+    name: 'Jumbo Dispenser Rulo',
+    desc: 'Peşəkar istifadə üçün Jumbo Dispenser Rulo. Yüksək uduculuq, təmiz və gigiyenik, davamlı və sərfəli. Dispenser ilə birlikdə. Restoran, otel, ictimai tualet üçün ideal.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-jumbo-dispenser-rulo.jpg',
+    badge: 'Jumbo',
+    price: null
+  },
+  {
+    id: 'p18',
+    name: 'Kağız Salfet — Ekonom Paket',
+    desc: 'Gündəlik istifadə üçün kağız salfet ekonom paketi. Yumşaq və rahat, təmiz və gigiyenik. Ev, ofis, restoran üçün uyğun.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-kagiz-salfet-ekonom.jpg',
+    badge: 'Ekonom',
+    price: null
+  },
+  {
+    id: 'p19',
+    name: 'Tualet Kağızı — 48 Rulon (3 qatlı)',
+    desc: '%100 Təbii Tualet Kağızı. 3 qatlı, yumşaq və rahat, təmiz və gigiyenik, təbii və ekoloji təmiz. 48 rulon paket.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-tualet-kagizi-48-rulon.jpg',
+    badge: '48 rulon',
+    price: null
+  },
+  {
+    id: 'p20',
+    name: 'Maxi Salfet',
+    desc: 'Yüksək uduculuq, təmiz və gigiyenik, davamlı və keyfiyyətli Maxi Salfet. Profesional istifadə üçün nəzərdə tutulub.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-maxi-salfet.jpg',
+    badge: 'Maxi',
+    price: null
+  },
+  {
+    id: 'p21',
+    name: 'Dispenser Salfet — Ekonom Paket',
+    desc: 'Dispenser üçün salfet ekonom paketi. Yumşaq və rahat, təmiz və gigiyenik, hər gün istifadə üçün. Dispenser ilə birlikdə.',
+    category: 'salfetka',
+    categoryLabel: 'Salfetka',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-dispenser-salfet-ekonom.jpg',
+    badge: 'Ekonom',
+    price: null
+  },
+  // KİMYƏVİ MƏHSULLAR — YENİ
+  {
+    id: 'p22',
+    name: 'Qab Şampunu — 5L',
+    desc: 'Saff Təharət Qab Şampunu 5 litr. Yağı effektiv təmizləyir, əllərə zərər vermir, bioloji parçalana bilən formula. Restoranlar, iaşə müəssisələri üçün ideal.',
+    category: 'kimyevi',
+    categoryLabel: 'Kimyəvi Məhsullar',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-qab-sampunu-5l.jpg',
+    badge: '5L',
+    price: null
+  },
+  // TƏMİZLİK LƏVAZİMATLARI — YENİ
+  {
+    id: 'p23',
+    name: 'Alüminium Folqa — 45sm x 100sm',
+    desc: 'Saff Təharət Alüminium Folqa 45sm × 100sm. Ərzaq qablaşdırması, pişirmə, dondurucu üçün ideal. Yüksək keyfiyyətli, davamlı material.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-alyuminium-folqa.jpg',
+    badge: '100 sm',
+    price: null
+  },
+  {
+    id: 'p24',
+    name: 'Zibil Torbası — 50 ədəd (Güclü)',
+    desc: 'Güclü və dayanıqlı zibil torbası, 50 ədəd. Güclü material, sızdırmaz, məişət və ofis üçün. Ev və ofis istifadəsi üçün uyğun.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-zibil-torbasi-50-eded.jpg',
+    badge: '50 əd.',
+    price: null
+  },
+  {
+    id: 'p25',
+    name: 'Zibil Torbası — 60L Rulo (10 ədəd)',
+    desc: 'Saff Təharət Zibil Torbası 60L rulon, 10 ədəd. Davamlı və möhkəm, ekoloji təmiz, praktik istifadə. Ev, ofis, ictimai yerler üçün.',
+    category: 'levazimati',
+    categoryLabel: 'Təmizlik Ləvazimatları',
+    img: 'https://raw.githubusercontent.com/rclub9321-cpu/saff/main/images/product-zibil-torbasi-60l-rulo.jpg',
+    badge: '60L',
+    price: null
+  },
   // DEZİNFEKSİYA
   {
     id: 'p13',
