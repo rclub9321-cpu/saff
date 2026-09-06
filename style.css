@@ -7,6 +7,17 @@
   padding: 0;
 }
 
+/* Performance: reduce layout recalculations */
+.product-card {
+  contain: layout style;
+}
+.home-cat-card {
+  contain: layout style;
+}
+.vacancy-card {
+  contain: layout style;
+}
+
 :root {
   --white: #ffffff;
   --black: #1a1a1a;
@@ -696,6 +707,7 @@ ul { list-style: none; }
   overflow: hidden;
   transition: box-shadow var(--transition), transform var(--transition);
   cursor: pointer;
+  will-change: transform;
 }
 .product-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
 
@@ -715,6 +727,7 @@ ul { list-style: none; }
   object-position: center center;
   transition: transform 0.35s;
   padding: 8px;
+  will-change: transform;
 }
 .product-card:hover .product-card-img img { transform: scale(1.05); }
 
